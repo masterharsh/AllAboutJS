@@ -1,0 +1,9 @@
+- Lack of type checks
+eg: You can assign a number as well as a string to the same variable, or even an object.
+
+- If you have a function, it does not complain if you dont pass the required number of arguments to the function.
+It just adds undefined, if the argument is not passed and executes the function.
+Similarly you can pass more arguments as well, than are required as per function definition.
+
+- You cannot enforce the structure of objects. Objects are loosely structured in JS.
+

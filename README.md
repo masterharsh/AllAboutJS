@@ -1,2 +1,2 @@
 # AllAboutJS
-These are my revision and referral notes for JS
+These are my revision and referral notes for JS.

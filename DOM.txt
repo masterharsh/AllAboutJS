@@ -1,0 +1,27 @@
+DOCUMENT OBJECT MODEL
+
+- The Document Object Model (DOM) connects web pages to scripts or programming languages by 
+    representing the structure of a document—such as the HTML representing a web page—in memory.
+    Usually it refers to JavaScript, even though modeling HTML, SVG, or XML documents as objects 
+    are not part of the core JavaScript language.
+
+- The Document Object Model (DOM) is a programming interface for web documents. 
+    It represents the page so that programs can change the document structure, style, and content.
+    The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
+
+- A web page is a document that can be either displayed in the browser window or as the HTML source.
+    In both cases, it is the same document but the Document Object Model (DOM) representation allows it to be manipulated.
+    As an object-oriented representation of the web page, it can be modified with a scripting language such as JavaScript.
+
+- The DOM is built using multiple APIs that work together.
+    The core DOM defines the entities describing any document and the objects within it.
+    This is expanded upon as needed by other APIs that add new features and capabilities to the DOM.
+    For example, the HTML DOM API adds support for representing HTML documents to the core DOM, and the SVG API adds support for representing SVG documents.
+
+- The DOM is not part of the JavaScript language, but is instead a Web API used to build websites.
+    JavaScript can also be used in other contexts. For example, Node.js runs JavaScript programs on a computer,
+    but provides a different set of APIs, and the DOM API is not a core part of the Node.js runtime.
+
+- The DOM was designed to be independent of any particular programming language, making the structural representation of 
+    the document available from a single, consistent API.
+    Even if most web developers will only use the DOM through JavaScript, implementations of the DOM can be built for any language.
